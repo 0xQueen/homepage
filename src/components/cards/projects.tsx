@@ -21,8 +21,8 @@ const Card: React.FC<CardProps> = ({ name, description, repo_link }) => {
           backgroundColor: "#382434",
           boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
           borderColor: "#9a397c",
-          maxWidth: "90vw", // Adjust the maximum width as needed
-          width: "100%", // Ensure the card takes full width
+          maxWidth: "90vw",
+          width: "100%",
         }}
       >
         <h3 className="text-gray-300 text-left font-bold mb-2">{name}</h3>
