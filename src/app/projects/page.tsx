@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <div className="project-container flex flex-col justify-center items-center min-h-screen px-4">
+    <div className="project-container flex flex-col justify-center items-center px-4 md:m-20">
       <div className="text-center mb-6 mt-10 sm:mt-0">
         <h1 className="project-header font-bold text-3xl mb-2">Projects</h1>
         <p className="text-gray-200 mt-3">

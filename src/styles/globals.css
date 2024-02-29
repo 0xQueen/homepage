@@ -24,33 +24,41 @@ body {
   color: white;
 }
 
-    ::-webkit-scrollbar {
-      width: 10px;
-    }
-  
-    ::-webkit-scrollbar-track {
-      background: #160d14;
-      border-radius: 5px;
-    }
-  
-    ::-webkit-scrollbar-thumb {
-      background: rgba(219, 112, 147);
-      border-radius: 5px;
-    }
-  
-    ::-webkit-scrollbar-thumb:hover {
-      background: rgb(58, 34, 53)
-    }
+/* scrollbar */
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+  background: #160d14;
+  border-radius: 5px;
+}
+  
+::-webkit-scrollbar-thumb {
+  background: rgba(219, 112, 147);
+  border-radius: 5px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(58, 34, 53)
+}
 
+/*
+  position absolute, top/left, transform are not necessary, and can be made differently that's easier 
+  to work with, but i dont feel like changing it. if it works it works, i dont feel like making responsiveness 
+  for a 650p device [galaxy fold], because on every other device it works as inteded.
+
+  #FuckGalaxyFold
+*/
 .custom-container {
   background-color: #352332;
   color: #ffffff;
   border-radius: 20px;
   box-shadow: 0 0px 16px rgba(0, 0, 0, 0.2);
-  padding: 40px;
+  padding: 20px;
   width: 90%;
-  max-width: 90%;
+  max-width: 95%;
   margin: 0 auto;
   position: absolute;
   top: 50%;
@@ -60,9 +68,37 @@ body {
   overflow: hidden;
 }
 
+.custom-container h1 {
+  color: #be529c;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.custom-container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgb(224, 212, 212);
+  overflow-wrap: break-word;
+  max-width: 500px;
+}
+
+.custom-container .icon {
+  margin-top: 30px;
+}
+
+.custom-container .icon svg {
+  width: 40px;
+  height: 40px;
+  fill: #bf4397;
+}
+
+/* this is really stupid to include in here... */
+
 .projects {
   margin-top: 10px;
 }
+
+/* some stupid responsiveness for devices */
 
 @media screen and (min-width: 640px) {
   .custom-container {
@@ -92,20 +128,19 @@ body {
     margin-top: 120px;
   }
 
-        .project-container {
-          position: relative;
-          /* Position the entire container */
-          top: -10px;
-          /* Move the entire container 10px up on desktop */
-        }
+  .project-container {
+    position: relative;
+    top: -10px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .mt-desktop {
     margin-top: 10px;
-    /* Margin for desktop screens larger than 1280px */
   }
 }
+
+/* project css kind of needed but ehhh */
 
 .project-header {
   color: #be529c;
@@ -113,29 +148,7 @@ body {
   margin-bottom: 20px;
 }
 
-.custom-container h1 {
-  color: #be529c;
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.custom-container p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  color: rgb(224, 212, 212);
-  overflow-wrap: break-word;
-  max-width: 500px;
-}
-
-.custom-container .icon {
-  margin-top: 30px;
-}
-
-.custom-container .icon svg {
-  width: 40px;
-  height: 40px;
-  fill: #bf4397;
-}
+/* i dont know why this is in here when i use something else, prob something i forgot about */
 
 .badge {
   background-color: #f0629180;
