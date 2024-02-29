@@ -35,18 +35,14 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <div className="project-container flex flex-col justify-center items-center h-screen">
+    <div className="project-container flex flex-col justify-center items-center min-h-screen px-4">
       <div className="text-center mb-6 mt-10 sm:mt-0">
-        {" "}
         <h1 className="project-header font-bold text-3xl mb-2">Projects</h1>
         <p className="text-gray-200 mt-3">
-          projects make a world a better place!
+          Projects make the world a better place!
         </p>
       </div>
-      <div
-        className="projects relative top-0 left-0 right-0 text-center"
-        style={{ top: "-50px", transform: "translateY(20px)" }}
-      >
+      <div className="projects text-center">
         <Grid projects={projects} />
       </div>
     </div>

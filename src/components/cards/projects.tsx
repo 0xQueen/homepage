@@ -13,16 +13,18 @@ const Card: React.FC<CardProps> = ({ name, description, repo_link }) => {
       href={repo_link}
       target="_blank"
       rel="noopener noreferrer"
-      className="hover:opacity-100 block mb-6 w-full"
+      className="block mb-6 w-full"
+      style={{ textDecoration: "none" }}
     >
       <div
-        className="bg-gray-800 text-white rounded-lg p-4 md:p-6 shadow-md flex flex-col justify-between transition duration-300 hover:bg-[#9a397c] hover:border-[#9a397c] hover:text-[#9a397c] hover:ring-[#9a397c] ring-opacity-50 hover:border-2"
+        className="bg-gray-800 text-white rounded-lg p-4 md:p-6 shadow-md transition duration-300 hover:bg-[#9a397c] hover:border-[#9a397c] hover:text-[#9a397c] hover:border-2 mt-10 sm:mt-0"
         style={{
           backgroundColor: "#382434",
           boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
           borderColor: "#9a397c",
-          maxWidth: "90vw",
+          maxWidth: "90%",
           width: "100%",
+          margin: "auto",
         }}
       >
         <h3 className="text-gray-300 text-left font-bold mb-2">{name}</h3>
