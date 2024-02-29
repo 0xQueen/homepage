@@ -11,26 +11,26 @@ const Projects: React.FC = () => {
     {
       name: "majesty.lol [NEW]",
       description:
-        "Current website you're on is open-source! It allows me to share everyone my experience on web development.",
-      repo_link: "https://github.com/your-github-repo",
+        "Current website you're on is open-source! It's an upgraded version of the old website, that I've made.",
+      repo_link: "https://github.com/0xQueen/homepage",
     },
     {
       name: "AFTS",
       description:
         "Meet Another-Fucking-Torrent-Site! A complete open-source torrent site made in PHP and MySQL.",
-      repo_link: "https://github.com/your-github-repo",
+      repo_link: "#",
     },
     {
       name: "Project C",
       description:
         "Project C will be a website built in Next.JS, which will allow you to make your own profiles similiar to carrd!",
-      repo_link: "https://github.com/your-github-repo",
+      repo_link: "#",
     },
     {
       name: "majesty.lol [OLD]",
       description:
-        "Current website you're on is a new version of old! It allows me to share everyone my experience on web development.",
-      repo_link: "https://github.com/your-github-repo",
+        "My old website. It allowed me to share everyone my experience on web development. *Deprecated*",
+      repo_link: "https://github.com/0xQueen/majesty.lol",
     },
   ];
 
