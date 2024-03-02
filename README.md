@@ -11,7 +11,6 @@ This is **not** a portfolio, and it is not related to it. This website is simply
 
 **Requirements:**
 - **Typescript Knowledge**
-- **Next/React Knowledge**
 - [Node.JS](https://git-scm.com/)
 - [Git](https://nodejs.org/en)
 
@@ -32,3 +31,6 @@ The easiest way to host the website is through [Vercel](https://vercel.com/new?u
 **FAIR WARNING**: You must'nt touch footer.tsx's GitHub link when hosting a website for your own; if you'd like permission to remove it, contact Queen on [qTox](https://qtox.github.io/).
 
 **038B40F154287CFC762A2B2A5444C1720C9B08F1DEFF13CC9D3B18B4AC74CD52CC25B06BF226**
+
+## Special thanks to;
+- [kaizen](https://kzn.sh)
