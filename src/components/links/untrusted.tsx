@@ -9,6 +9,7 @@ const UntrustedLinks: React.FC = () => {
     "steamunlocked.com",
     "anjogames.com",
     "oceanofgames.com",
+    "game-2u.com",
     "skidrowreloaded.com",
     "skidrowempress.com",
     "skidrowcodex.net",
