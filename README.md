@@ -1,6 +1,7 @@
 # 0xQueen/homepage/
 Homepage is a better version of [old majesty.lol's website](https://github.com/0xQueen/majesty.lol) rewritten in the Next.JS framework. 
-This is not a portfolio, and it is not related to it. This website is simply used like "carrd," therefore anyone can use it and change colors or add more to it.
+
+This is **not** a portfolio, and it is not related to it. This website is simply used like "carrd," therefore anyone can use it and change colors or add more to it.
 
 ## Showcase
 [![Watch the video](https://media.discordapp.net/attachments/1093582039187468370/1213287170635333682/image.png?ex=65f4ecbb&is=65e277bb&hm=2354d8a72aef36a590b5d46777174e6faaf8f724a43b27faac85e4b05588081f&=&format=webp&quality=lossless&width=917&height=671)](https://streamable.com/yn03si)
