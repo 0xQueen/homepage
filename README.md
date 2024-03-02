@@ -20,12 +20,6 @@ git clone https://github.com/0xQueen/homepage/
 cd homepage
 npm i
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 To open the website, visit [http://127.0.0.1:3000](http://127.0.0.1:3000).
