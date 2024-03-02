@@ -15,14 +15,22 @@ export default function TipDialog() {
 
   return (
     <>
-      <div className="absolute top-9 right-16 lg:right-48">
-        <button
-          type="button"
-          onClick={openModal}
-          className="rounded-md bg-black/20 px-4 py-2 text-sm font-medium text-white hover:bg-black/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75"
-        >
-          <IoIosInformationCircle />
-        </button>
+      <div
+        className="flex items-center justify-center"
+        style={{ marginLeft: "37px" }}
+      >
+        <div>
+          <h1 className="font-bold text-3xl mb-4 sm:mb-2">Sources</h1>
+        </div>
+        <div className="ml-2" style={{ marginBottom: "8px" }}>
+          <button
+            type="button"
+            onClick={openModal}
+            className="rounded-md bg-black/20 px-4 py-2 text-sm font-medium text-white hover:bg-black/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75"
+          >
+            <IoIosInformationCircle style={{ fontSize: "1.2em" }} />
+          </button>
+        </div>
       </div>
 
       <Transition appear show={isOpen} as={Fragment}>
@@ -42,7 +50,7 @@ export default function TipDialog() {
             />
           </Transition.Child>
 
-          <div className="fixed inset-0 overflow-y-auto">
+          <div className="fixed inset-0 flex items-center justify-center">
             <div className="flex min-h-full items-center justify-center p-4 text-center">
               <Transition.Child
                 as={Fragment}

@@ -26,6 +26,10 @@ body {
 
 /* scrollbar */
 
+body.dialog-open {
+  overflow: hidden;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
