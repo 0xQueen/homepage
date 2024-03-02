@@ -8,6 +8,8 @@ const TrustedLinks: React.FC = () => {
     "fitgirl-repacks.site",
     "gamedrive.org",
     "steamrip.com",
+    "repack-mechanics.com",
+    "gog-games.to",
   ];
 
   return (

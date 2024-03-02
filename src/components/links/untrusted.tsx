@@ -7,6 +7,11 @@ const UntrustedLinks: React.FC = () => {
     "thepiratebay.org",
     "IGG-Games.com",
     "steamunlocked.com",
+    "anjogames.com",
+    "oceanofgames.com",
+    "skidrowreloaded.com",
+    "skidrowempress.com",
+    "skidrowcodex.net",
   ];
 
   return (
