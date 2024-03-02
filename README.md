@@ -10,6 +10,7 @@ This is not a portfolio, and it is not related to it. This website is simply use
 
 ## Running locally
 **Requirements:**
+
 **Typescript Knowledge**
 - [Node.JS](https://git-scm.com/)
 - [Git](https://nodejs.org/en)
