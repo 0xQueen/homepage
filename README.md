@@ -1,4 +1,4 @@
-# 0xQueen/homepage/
+# homepage/
 Homepage is a better version of [old majesty.lol's website](https://github.com/0xQueen/majesty.lol) rewritten in the Next.JS framework. 
 
 This is **not** a portfolio, and it is not related to it. This website is simply used like "carrd," therefore anyone can use it and change colors or add more to it.
