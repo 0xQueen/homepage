@@ -2,26 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 22, 13, 20;
-  --background-end-rgb: 22, 13, 20;
-  /* Dark Pink */
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-    /*  */
-  }
-}
-
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #160d14;
   color: white;
+}
+
+/* color fixing */
+
+.primary-color {
+  background-color: #be529cd7;
+}
+
+.secondary-color {
+  background-color: #d67fba;
+}
+
+.primary-hover:hover {
+  background-color: #942f74d2;
+}
+
+.secondary-hover:hover {
+  background-color: #914d7bb2;
 }
 
 /* scrollbar */
@@ -35,12 +37,12 @@ body.dialog-open {
 }
   
 ::-webkit-scrollbar-track {
-  background: #160d14;
+  background: #352332;
   border-radius: 5px;
 }
   
 ::-webkit-scrollbar-thumb {
-  background: rgba(219, 112, 147);
+  background: #be529c;
   border-radius: 5px;
 }
   
@@ -55,6 +57,7 @@ body.dialog-open {
 
   #FuckGalaxyFold
 */
+
 .custom-container {
   background-color: #352332;
   color: #ffffff;
@@ -152,12 +155,14 @@ body.dialog-open {
   margin-bottom: 20px;
 }
 
-/* i dont know why this is in here when i use something else, prob something i forgot about */
+/* a's for profile uwu */
 
-.badge {
-  background-color: #f0629180;
-  color: #fff;
-  padding: 5px;
-  border-radius: 5px;
-  display: inline-block;
+.hyperlink {
+  transition: 0.3s;
+  color: #d67fba;
+}
+
+.hyperlink:hover {
+  transition: 0.3s;
+  color: #bf4397;
 }

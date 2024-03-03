@@ -39,7 +39,7 @@ const Container: React.FC = () => {
           style={{ backgroundColor: "#2e1a27", border: "none" }}
         >
           <p className="wrap text-gray-700 text-sm">
-            hey, i'm queen; a website designer and software developer. i enjoy
+            hey, i'm Queen; a website designer and software developer. i enjoy
             learning new things that interest me, and i love working on new
             projects and learning more programming languages.
           </p>

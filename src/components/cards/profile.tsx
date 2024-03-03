@@ -18,12 +18,12 @@ export default function Card() {
               <p className="align-middle prose prose-lg">
                 ello! I'm Queen, i am a nice person who loves to aid people
                 mentally and design websites, my hobby is developing websites,
-                and learning Reverse Engineerng, and as for my operating system,
-                i use
+                and learning Reverse Engineering, and as for my operating
+                system, i use
                 <span className="inline-block px-1 align-middle">
-                  <GrArchlinux />
+                  <GrArchlinux style={{ color: "#be529c" }} />
                 </span>
-                Linux
+                Linux.
               </p>
             </div>
           </div>
@@ -36,9 +36,20 @@ export default function Card() {
         content: (
           <div className="mb-4">
             <p className="text-gray-700 mb-2">
-              don't be toxic, don't vent instantly, be honest, don't have huge
-              ego, don't be racist, don't be homophobic/transphobic, don't be
-              self orianted. use nohello.net!
+              don't be toxic, don't vent instantly, be honest and don't lie to
+              me, don't have huge ego, don't be racist, don't be
+              homophobic/transphobic, don't be self orianted. please strongly
+              use
+              <a className="hyperlink" href="https://nohello.net/">
+                {" "}
+                nohello
+              </a>{" "}
+              &
+              <a className="hyperlink" href="https://dontasktoask.com/">
+                {" "}
+                dontasktoask
+              </a>
+              !
             </p>
           </div>
         ),
@@ -78,8 +89,8 @@ export default function Card() {
                   "w-full rounded-lg py-2.5 text-sm font-medium leading-5",
                   "ring-white/60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2",
                   selected
-                    ? "bg-pink-500 bg-opacity-75 shadow"
-                    : "text-white-100 transition-all duration-300 hover:bg-pink-400 hover:bg-opacity-45 hover:text-white"
+                    ? "primary-color shadow"
+                    : "text-white-100 transition-all duration-300 secondary-hover hover:text-white"
                 )
               }
             >

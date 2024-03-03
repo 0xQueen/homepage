@@ -4,6 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "queen's projects",
+  description: "queen's website",
 };
 
 const Projects: React.FC = () => {

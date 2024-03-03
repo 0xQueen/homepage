@@ -28,7 +28,9 @@ export default function TipDialog() {
             onClick={openModal}
             className="rounded-md bg-black/20 px-4 py-2 text-sm font-medium text-white hover:bg-black/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75"
           >
-            <IoIosInformationCircle style={{ fontSize: "1.2em" }} />
+            <IoIosInformationCircle
+              style={{ fontSize: "1.2em", color: "#bf4397" }}
+            />
           </button>
         </div>
       </div>
@@ -83,7 +85,7 @@ export default function TipDialog() {
                   <div className="mt-4">
                     <button
                       type="button"
-                      className="inline-flex justify-center rounded-md border border-transparent bg-pink-600 px-4 py-2 text-sm font-medium text-white hover:bg-pink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 focus-visible:ring-offset-2"
+                      className="primary-color primary-hover inline-flex justify-center rounded-md border border-transparent px-4 py-2 text-sm font-medium text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500 focus-visible:ring-offset-2"
                       onClick={closeModal}
                     >
                       Got it, thanks!

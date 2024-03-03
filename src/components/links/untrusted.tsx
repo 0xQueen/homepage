@@ -4,12 +4,10 @@ import React from "react";
 const UntrustedLinks: React.FC = () => {
   const untrustedLinks = [
     "1377x.to",
-    "thepiratebay.org",
     "IGG-Games.com",
     "steamunlocked.com",
     "anjogames.com",
     "oceanofgames.com",
-    "game-2u.com",
     "skidrowreloaded.com",
     "skidrowempress.com",
     "skidrowcodex.net",

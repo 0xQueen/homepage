@@ -4,9 +4,9 @@ import clsx from "clsx";
 
 const variantStyles = {
   primary:
-    "bg-pink-600 font-semibold text-pink-100 hover:bg-pink-700 active:bg-pink-800 active:text-pink-100/70 dark:bg-pink-700 dark:hover:bg-pink-600 dark:active:bg-pink-700 dark:active:text-pink-100/70",
+    "primary-color font-semibold text-pink-100 primary-hover active:bg-pink-800 active:text-pink-100/70",
   secondary:
-    "bg-pink-500 font-medium text-pink-900 hover:bg-pink-600 active:bg-pink-600 active:text-pink-900/60 dark:bg-pink-800/50 dark:text-pink-300 dark:hover:bg-pink-800 dark:hover:text-pink-50 dark:active:bg-pink-800/50 dark:active:text-pink-50/70",
+    "secondary-color font-medium text-pink-900 secondary-hover active:bg-pink-600 active:text-pink-900/60",
 };
 
 export function Button({

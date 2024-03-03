@@ -4,6 +4,7 @@ import React from "react";
 const TrustedLinks: React.FC = () => {
   const trustedLinks = [
     "1337x.to",
+    "thepiratebay.org",
     "dodi-repacks.site",
     "fitgirl-repacks.site",
     "gamedrive.org",
