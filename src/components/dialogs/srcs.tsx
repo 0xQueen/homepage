@@ -20,7 +20,7 @@ export default function TipDialog() {
         style={{ marginLeft: "37px" }}
       >
         <div>
-          <h1 className="font-bold text-3xl mb-4 sm:mb-2">Base64</h1>
+          <h1 className="font-bold text-3xl mb-4 sm:mb-2">Sources</h1>
         </div>
         <div className="ml-2" style={{ marginBottom: "13px" }}>
           <button
