@@ -5,7 +5,7 @@ This is not a portfolio, and it is not related to it. This website is simply use
 
 ## Showcase
 **Click the image for the vid.**
-[![Watch the video](https://media.discordapp.net/attachments/1093582039187468370/1213287170635333682/image.png?ex=65f4ecbb&is=65e277bb&hm=2354d8a72aef36a590b5d46777174e6faaf8f724a43b27faac85e4b05588081f&=&format=webp&quality=lossless&width=917&height=671)](https://streamable.com/yn03si)
+[![Watch the video](https://media.discordapp.net/attachments/1093582039187468370/1213649058493628456/image.png?ex=65f63dc4&is=65e3c8c4&hm=cbb20349cfb255056098f88a0929e2b55a1f5dda17a667f765ec024d365b2bf2&=&format=webp&quality=lossless&width=1440&height=670)](https://streamable.com/1cw8xl)
 
 ## Running locally
 **Requirements:**
