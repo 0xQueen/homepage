@@ -160,6 +160,7 @@ body.dialog-open {
 .hyperlink {
   transition: 0.3s;
   color: #d67fba;
+  text-decoration: none;
 }
 
 .hyperlink:hover {
