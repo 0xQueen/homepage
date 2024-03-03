@@ -13,7 +13,7 @@ export default function Card() {
       {
         id: 1,
         content: (
-          <div className="mb-1 text-left">
+          <div className="mb-1">
             <div className="text-gray-700">
               <p className="align-middle prose prose-lg">
                 ello! I'm Queen, i am a nice person who loves to aid people
@@ -34,8 +34,8 @@ export default function Card() {
       {
         id: 1,
         content: (
-          <div className="mb-4">
-            <p className="text-gray-700">
+          <div className="mb-1">
+            <p className="align-middle prose prose-lg">
               don't be toxic, don't vent instantly, be honest and don't lie to
               me, don't have huge ego, don't be racist, don't be
               homophobic/transphobic, don't be self orianted. please strongly
@@ -59,8 +59,8 @@ export default function Card() {
       {
         id: 1,
         content: (
-          <div>
-            <p className="text-gray-700">
+          <div className="mb-1">
+            <p className="align-middle prose prose-lg">
               my dm's are semi-open, meaning they're open, but i may not reply
               unless its important!
             </p>
