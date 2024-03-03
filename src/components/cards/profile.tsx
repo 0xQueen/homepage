@@ -35,7 +35,7 @@ export default function Card() {
         id: 1,
         content: (
           <div className="mb-4">
-            <p className="text-gray-700 mb-2">
+            <p className="text-gray-700">
               don't be toxic, don't vent instantly, be honest and don't lie to
               me, don't have huge ego, don't be racist, don't be
               homophobic/transphobic, don't be self orianted. please strongly
@@ -60,7 +60,7 @@ export default function Card() {
         id: 1,
         content: (
           <div>
-            <p className="text-gray-700 mb-2">
+            <p className="text-gray-700">
               my dm's are semi-open, meaning they're open, but i may not reply
               unless its important!
             </p>
