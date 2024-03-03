@@ -1,5 +1,4 @@
 "use client";
-
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -14,7 +13,7 @@ export default function Header() {
         className="cozy-container border-2 border-purple-500 bg-opacity-70 backdrop-blur-lg rounded-full p-1"
         style={{ borderColor: bgColor }}
       >
-        <div className="flex items-center justify-between space-x-4">
+        <div className="flex justify-center space-x-4 md:space-x-6">
           <div
             className={`rounded-full p-1 ${
               pathname === "/" ? "primary-color bg-opacity-75" : ""
@@ -31,7 +30,7 @@ export default function Header() {
           >
             <Link href="/" passHref>
               <span
-                className="nav-item text-white font-bold text-base"
+                className="nav-item text-white font-bold text-base md:text-lg"
                 style={{ padding: "6px 16px" }}
               >
                 Home
@@ -54,7 +53,7 @@ export default function Header() {
           >
             <Link href="profile" passHref>
               <span
-                className="nav-item text-white font-bold text-base"
+                className="nav-item text-white font-bold text-base md:text-lg"
                 style={{ padding: "6px 16px" }}
               >
                 Profile
@@ -77,7 +76,7 @@ export default function Header() {
           >
             <Link href="/projects" passHref>
               <span
-                className="nav-item text-white font-bold text-base"
+                className="nav-item text-white font-bold text-base md:text-lg"
                 style={{ padding: "6px 16px" }}
               >
                 Projects

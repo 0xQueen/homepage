@@ -72,11 +72,7 @@ export default function Card() {
 
   return (
     <div className="max-w-4xl outline-none mx-auto px-4 py-12 sm:px-6 lg:max-w-7xl lg:px-8 custom-container">
-      <Tab.Group
-        onChange={(index) => {
-          console.log("Changed selected tab to:", index);
-        }}
-      >
+      <Tab.Group>
         <Tab.List
           className="flex space-x-1 rounded-xl p-1"
           style={{ backgroundColor: "#2e1a27" }}

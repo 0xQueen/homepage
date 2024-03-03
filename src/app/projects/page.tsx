@@ -40,7 +40,7 @@ const Projects: React.FC = () => {
       <div className="text-center mb-6 mt-10 sm:mt-0">
         <h1 className="project-header font-bold text-3xl mb-2">Projects</h1>
         <p className="text-gray-200 mt-3">
-          Projects make the world a better place!
+          projects make the world a better place!
         </p>
       </div>
       <div className="projects text-center">

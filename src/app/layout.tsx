@@ -1,5 +1,6 @@
 import Header from "@/components/layout/header.tsx";
 import Footer from "@/components/layout/footer.tsx";
+import Console from "@/components/layout/console";
 import "@/styles/globals.css";
 
 export default function RootLayout({
@@ -14,6 +15,7 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
+      <Console />
     </html>
   );
 }
