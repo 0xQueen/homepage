@@ -76,9 +76,8 @@ export default function TipDialog() {
                   <div className="mt-2">
                     <p className="text-sm text-gray-300">
                       Base64 is an encryptor and decryptor of text, making it
-                      harder for people to read. To use it, simply write text.
-                      whether its encrypted or non-decrypted, and press the
-                      button, and it'll show an output.
+                      harder for people to read. To use it, simply write text
+                      and use the buttons 'encrypt', 'decrypt', and 'clear'.
                     </p>
                   </div>
 

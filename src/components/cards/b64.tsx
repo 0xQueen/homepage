@@ -13,14 +13,14 @@ const Base64: React.FC = () => {
     setIsEncoded(isBase64(e.target.value));
   };
 
-  const handleProcess = () => {
-    if (isEncoded) {
-      const decoded = atob(inputText);
-      setOutputText(decoded);
-    } else {
-      const encoded = btoa(inputText);
-      setOutputText(encoded);
-    }
+  const handleEncrypt = () => {
+    const encoded = btoa(inputText);
+    setOutputText(encoded);
+  };
+
+  const handleDecrypt = () => {
+    const decoded = atob(inputText);
+    setOutputText(decoded);
   };
 
   const isBase64 = (str: string) => {
@@ -38,20 +38,30 @@ const Base64: React.FC = () => {
       </div>
       <textarea
         className="w-full md:w-96 h-12 md:h-20 border border-gray-600 rounded-md p-2 text-gray-200 bg-gray-700 focus:outline-none"
-        placeholder="Enter text to encode or decode"
+        placeholder="Input text"
         value={inputText}
         style={{ backgroundColor: "#2e1a27" }}
         onChange={handleInputChange}
       />
-      <div className="flex justify-end mt-4">
-        <Button variant="primary" onClick={handleProcess}>
-          {isEncoded ? "Decode" : "Encode"}
+      <div className="flex justify-center space-x-4 mt-4">
+        <Button variant="primary" onClick={handleEncrypt}>
+          Encrypt
+        </Button>
+        <Button variant="primary" onClick={handleDecrypt}>
+          Decrypt
+        </Button>
+        <Button
+          variant="primary"
+          onClick={() => {
+            setInputText("");
+            setOutputText("");
+          }}
+        >
+          Clear
         </Button>
       </div>
       <div className="mt-4">
-        <p className="font-semibold mb-2 text-pink-400">
-          {isEncoded ? "Decoded:" : "Encoded:"}
-        </p>
+        <p className="font-semibold mb-2 text-pink-400">Output:</p>
         <textarea
           className="w-full md:w-96 h-12 md:h-20 border border-gray-600 rounded-md p-2 text-gray-200 bg-gray-700 focus:outline-none"
           value={outputText}
