@@ -17,7 +17,7 @@ export default function TipDialog() {
     <>
       <div
         className="flex items-center justify-center"
-        style={{ marginLeft: "37px" }}
+        style={{ marginLeft: "34px" }}
       >
         <div>
           <h1 className="font-bold text-3xl mb-4 sm:mb-2">Sources</h1>
@@ -69,7 +69,7 @@ export default function TipDialog() {
                 >
                   <Dialog.Title
                     as="h3"
-                    className="text-2xl font-bold leading-8 text-pink-500 mb-4"
+                    className="secondary-color opacity-95 rounded-xl text-2xl font-bold leading-8 mb-4"
                   >
                     Sources are important
                   </Dialog.Title>

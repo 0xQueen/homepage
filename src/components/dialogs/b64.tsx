@@ -15,10 +15,7 @@ export default function TipDialog() {
 
   return (
     <>
-      <div
-        className="flex items-center justify-center"
-        style={{ marginLeft: "37px" }}
-      >
+      <div className="flex items-center justify-center">
         <div>
           <h1 className="font-bold text-3xl mb-4 sm:mb-2">Base64</h1>
         </div>
@@ -69,15 +66,16 @@ export default function TipDialog() {
                 >
                   <Dialog.Title
                     as="h3"
-                    className="text-2xl font-bold leading-8 text-pink-500 mb-4"
+                    className="secondary-color rounded-xl text-2xl font-bold leading-8 mb-4"
                   >
                     What is Base64?
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-300">
                       Base64 is an encryptor and decryptor of text, making it
-                      harder for people to read. To use it, simply write text
-                      and use the buttons 'encrypt', 'decrypt', and 'clear'.
+                      harder for people to read. To use it, simply write text.
+                      whether its encrypted or non-decrypted, and press the
+                      buttons, and it'll show an output.
                     </p>
                   </div>
 
