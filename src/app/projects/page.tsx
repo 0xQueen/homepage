@@ -16,15 +16,15 @@ const Projects: React.FC = () => {
       repo_link: "https://github.com/0xQueen/homepage",
     },
     {
+      name: "Discord Bot Website",
+      description:
+        "I've made a Discord Bot Website's template fully in NextJS and Tailwind CSS. Anyone can use it!",
+      repo_link: "https://github.com/0xQueen/Discord-Bot-Website",
+    },
+    {
       name: "AFTS",
       description:
         "Meet Another-Fucking-Torrent-Site! A complete open-source torrent site made in PHP and MySQL.",
-      repo_link: "#",
-    },
-    {
-      name: "Project C",
-      description:
-        "Project C will be a website built in Next.JS, which will allow you to make your own profiles similiar to carrd!",
       repo_link: "#",
     },
     {
