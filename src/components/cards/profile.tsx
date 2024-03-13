@@ -17,7 +17,7 @@ export default function Card() {
           <div className="mb-1">
             <div className="text-gray-700">
               <p className="align-middle prose prose-lg">
-                i am a nice, socially deranged, funny and delusional. i love
+                i am nice, socially deranged, funny and delusional. i love
                 helping people mentally [<a className="special">i hope</a>] and
                 i love to design websites. my hobbies are weird, and confusing
                 such as; developing websites and reverse engineering [
