@@ -17,11 +17,10 @@ export default function Card() {
           <div className="mb-1">
             <div className="text-gray-700">
               <p className="align-middle prose prose-lg">
-                i am nice, socially deranged, funny and delusional. i love
-                helping people mentally [<a className="special">i hope</a>] and
-                i love to design websites. my hobbies are weird, and confusing
-                such as; developing websites and reverse engineering [
-                <a className="special">assembly woo scawwy</a>]. as for my
+                i am a nice, socially deranged, funny and delusional. i love
+                helping people mentally [i hope] and i love to design websites.
+                my hobbies are weird, and confusing such as; developing websites
+                and reverse engineering [assembly woo scawwy]. as for my
                 operating system i use
                 <span className="inline-block px-1 align-middle">
                   <GrArchlinux style={{ color: "#be529c" }} />
@@ -39,9 +38,10 @@ export default function Card() {
         content: (
           <div className="mb-1">
             <p className="align-middle prose prose-lg">
-              don't be toxic, don't vent instantly, be honest and don't lie to
-              me, don't have huge ego, don't be racist, don't be
-              homophobic/transphobic, don't be self orianted. please strongly
+              don't be toxic, don't start religion topic [i am an atheist & i
+              support all religions and people], don't vent instantly, be honest
+              and don't lie to me, don't have huge ego, don't be racist, don't
+              be homophobic/transphobic, don't be self orianted. please strongly
               use
               <Link className="special" href="https://nohello.net/">
                 {" "}
