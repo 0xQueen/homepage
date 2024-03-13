@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Tab } from "@headlessui/react";
 import { GrArchlinux } from "react-icons/gr";
+import Link from "next/link";
 
 function classNames(...classes: (string | undefined | null | false)[]): string {
   return classes.filter(Boolean).join(" ");
@@ -16,10 +17,12 @@ export default function Card() {
           <div className="mb-1">
             <div className="text-gray-700">
               <p className="align-middle prose prose-lg">
-                ello! I'm Queen, i am a nice person who loves to aid people
-                mentally and design websites, my hobby is developing websites,
-                and learning Reverse Engineering, and as for my operating
-                system, i use
+                i am a nice, socially deranged, funny and delusional. i love
+                helping people mentally [<a className="special">i hope</a>] and
+                i love to design websites. my hobbies are weird, and confusing
+                such as; developing websites and reverse engineering [
+                <a className="special">assembly woo scawwy</a>]. as for my
+                operating system i use
                 <span className="inline-block px-1 align-middle">
                   <GrArchlinux style={{ color: "#be529c" }} />
                 </span>
@@ -40,15 +43,14 @@ export default function Card() {
               me, don't have huge ego, don't be racist, don't be
               homophobic/transphobic, don't be self orianted. please strongly
               use
-              <a className="hyperlink" href="https://nohello.net/">
+              <Link className="special" href="https://nohello.net/">
                 {" "}
-                nohello
-              </a>{" "}
-              &
-              <a className="hyperlink" href="https://dontasktoask.com/">
-                {" "}
+                nohello{" "}
+              </Link>
+              &{" "}
+              <Link className="special" href="https://dontasktoask.com/">
                 dontasktoask
-              </a>
+              </Link>
               !
             </p>
           </div>
