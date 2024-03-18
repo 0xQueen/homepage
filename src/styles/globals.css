@@ -167,3 +167,10 @@ body.dialog-open {
   transition: 0.3s;
   color: #bf4397;
 }
+
+/* badge thingy */
+
+.new {
+  background-color: #683a5e;
+  display: inline;
+}
