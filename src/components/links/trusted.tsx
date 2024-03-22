@@ -49,7 +49,7 @@ const TrustedLinks: React.FC = () => {
 
     setTrustedLinks(updatedLinks);
     setNewlyAddedSources(updatedNewSources);
-  }, [trustedLinks]);
+  }, []);
 
   return (
     <div className="bg-2e1a27 rounded-lg p-2">
