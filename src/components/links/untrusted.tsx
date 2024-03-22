@@ -42,7 +42,7 @@ const untrustedLinks: React.FC = () => {
 
     setuntrustedLinks(updatedLinks);
     setNewlyAddedSources(updatedNewSources);
-  }, [untrustedLinks]);
+  }, []);
 
   return (
     <div className="bg-2e1a27 rounded-lg p-2">
