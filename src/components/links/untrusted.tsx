@@ -11,20 +11,19 @@ const untrustedLinks: React.FC = () => {
     "skidrowreloaded.com",
     "skidrowempress.com",
     "skidrowcodex.net",
-  ]);
-
-  const [newlyAddedSources, setNewlyAddedSources] = useState<string[]>([]);
-  const newSources = [
     "1337x.to",
     "thepiratebay.org",
     "kickasstorrents.com",
     "oceanofgames.com",
-    "*EVERY* RARBG",
+    "RARBG Sites",
     "getintopc.com",
     "yasdl.com",
     "torrentlite.com",
     "crackedfully.com",
-  ];
+  ]);
+
+  const [newlyAddedSources, setNewlyAddedSources] = useState<string[]>([]);
+  const newSources = ["1337x.to"];
 
   useEffect(() => {
     const updatedLinks = [...untrustedLinks];

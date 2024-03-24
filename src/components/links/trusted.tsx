@@ -3,18 +3,12 @@ import React, { useState, useEffect } from "react";
 
 const TrustedLinks: React.FC = () => {
   const [trustedLinks, setTrustedLinks] = useState<string[]>([
-    /* "1337x.to", BYE BYE!*/
-    /* "thepiratebay.org", BYE BYE!*/
     "dodi-repacks.site",
     "fitgirl-repacks.site",
     "gamedrive.org",
     "steamrip.com",
     "repack-mechanics.com",
     "gog-games.to",
-  ]);
-
-  const [newlyAddedSources, setNewlyAddedSources] = useState<string[]>([]);
-  const newSources = [
     "gamebounty.world",
     "dodi-repacks.download",
     "elamigos.site",
@@ -31,7 +25,10 @@ const TrustedLinks: React.FC = () => {
     "campucalitv.com",
     "fmoviesz.to",
     "hurawatch.bz",
-  ];
+  ]);
+
+  const [newlyAddedSources, setNewlyAddedSources] = useState<string[]>([]);
+  const newSources = ["byxatab.com"];
 
   useEffect(() => {
     const updatedLinks = [...trustedLinks];
