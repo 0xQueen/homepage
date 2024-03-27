@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Tab } from "@headlessui/react";
-import { GrArchlinux } from "react-icons/gr";
+import { SiNixos } from "react-icons/si";
 import Link from "next/link";
 
 function classNames(...classes: (string | undefined | null | false)[]): string {
@@ -23,7 +23,7 @@ export default function Card() {
                 and reverse engineering [assembly woo scawwy]. as for my
                 operating system i use
                 <span className="inline-block px-1 align-middle">
-                  <GrArchlinux style={{ color: "#be529c" }} />
+                  <SiNixos style={{ color: "#be529c" }} />
                 </span>
                 Linux.
               </p>
