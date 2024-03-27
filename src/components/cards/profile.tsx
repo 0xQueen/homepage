@@ -25,7 +25,6 @@ export default function Card() {
                 <span className="inline-block px-1 align-middle">
                   <SiNixos style={{ color: "#be529c" }} />
                 </span>
-                Linux.
               </p>
             </div>
           </div>
