@@ -14,7 +14,6 @@ const untrustedLinks: React.FC = () => {
     "1337x.to",
     "thepiratebay.org",
     "kickasstorrents.com",
-    "oceanofgames.com",
     "RARBG Sites",
     "getintopc.com",
     "yasdl.com",
